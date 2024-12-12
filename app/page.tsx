@@ -1,11 +1,10 @@
-import FolderAnimated from "@/components/uiverse/folderAnimated";
-
 
 export default function Home() {
   return (
-    <main className='flex justify-center'>
-      <h1>Hello World</h1>
-      <FolderAnimated />
+    <main className="m-10 flex justify-center">
+      <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        Hello World
+      </h2>
     </main>
   );
 }
